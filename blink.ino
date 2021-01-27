@@ -2,11 +2,15 @@
 
 void setup()
 {
-    pinMode (6, HIGH);
-    digitalWrite (6, HIGH);
-    delay (1000)
-    digitalWrite (6, LOW);
+    pinMode (6,OUTPUT);
+    digitalWrite (6,HIGH);
+    delay (1000);
+    digitalWrite (6,LOW);
+    delay (1000);
 
 }
 
-delay (2000);
+void loop()
+{
+       
+}
